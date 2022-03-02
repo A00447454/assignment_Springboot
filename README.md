@@ -23,4 +23,5 @@ Response: Added Successfully
 API URL:
 http://localhost:8080/hotels
 
-
+Response:
+[{"id":4,"name":"HolidayInn","price":799.0}]
