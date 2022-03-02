@@ -7,21 +7,23 @@ A hotel reservation system using java springboot
 API URL:
 http://localhost:8080/hotelInsert
 
-parameters: id (int) - ID number- Primary key.(auto increments)
-            name(String)- Hotel name
-            price(Float)- Price of the room per night          
+parameters: 
+* id (int) - ID number- Primary key.(auto increments)
+* name(String)- Hotel name
+* price(Float)- Price of the room per night     
+
 Example: 
+```
  {
     "name":"HolidayInn",
     "price":799
 }
-
+```
 Response: Added Successfully
-
 
 ## Get: Get List of hotels available in database
 API URL:
 http://localhost:8080/hotels
 
 Response:
-[{"id":4,"name":"HolidayInn","price":799.0}]
+``` [{"id":4,"name":"HolidayInn","price":799.0}] ```
